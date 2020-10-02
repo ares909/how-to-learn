@@ -147,17 +147,15 @@
 .two-columns__main-text__paragraph__span-accent{
   font-weight: bold;
 }
+
 .digits
 {
   margin-top: 100px;
-  align-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
-.digits__section-title{
+.section-title{
   width:60%;
   line-height: 1.15;
   font-size: 60px;
@@ -165,7 +163,7 @@
   text-align: center;
   margin: 0;
 }
-.digits__section-subtitle
+.section-subtitle
 {
   width:60%;
   line-height: 34px;
@@ -174,7 +172,7 @@
   text-align: center;
   margin:20px 0 0;
 }
-.digits__table{
+.table{
   width:1100px;
   padding: 0;
   margin: 0 auto 0;
@@ -269,7 +267,26 @@
 }
 
 
+.kaufman{
+  background-color: #1f1f1f;
+  padding: 90px 0 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.section-title_theme_dark
+{
+color:white;
+z-index:2;
 
+}
+
+.section-subtitle_theme_dark{
+  color:white;
+  z-index:2;
+}
 
 
 
@@ -279,4 +296,24 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  list-style-type: none;
+  z-index:2;
+}
+.table__cell_center_theme_dark
+{
+  margin: 20px 0 0;
+}
+.kaufman__image
+{
+  z-index: 0;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top:0;
+  right:-210px;
+  z-index:1;
+
+
+
+
 }
