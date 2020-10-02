@@ -104,9 +104,40 @@ position:absolute;
   align-self: center;
   display: flex;
   position: relative;
+  justify-content: space-between;
+
 }
 
 
+.description__two-columns__brief{
+  width:175px;
+
+
+}
+.description__two-columns__main-text{
+  width:80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+.two-columns__brief_text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color:#2f80ed;
+  margin:0;
+
+}
+.two-columns__main-text__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin:0;
+}
+.two-columns__main-text__paragraph__span-accent{
+  font-weight: bold;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
