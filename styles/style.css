@@ -379,6 +379,9 @@ z-index:2;
 {
   text-decoration: none;
   color:white;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
 }
 .footer__column_content_info{
   display: flex;
@@ -399,6 +402,9 @@ z-index:2;
 }
 .footer__list-item{
   display: flex;
+  margin:0;
+  padding: 0;
+  list-style-type: none;
 }
 
 
