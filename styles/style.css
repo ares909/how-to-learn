@@ -71,7 +71,9 @@
   color:#2f80ed;
   text-decoration: none;
 }
-
+.header__link:hover{
+  color: mediumpurple;
+}
 .header__main-illustration
 {
   width:765px;
@@ -245,6 +247,11 @@
   z-index: 1;
 
 }
+.feynman__link:hover{
+  color: mediumpurple;
+}
+
+
 .feynman__image
 {
   width: 867px;
@@ -383,6 +390,11 @@ z-index:2;
   margin:0;
   padding: 0;
 }
+.footer__column-link:hover
+{
+  color: mediumpurple;
+}
+
 .footer__column_content_info{
   display: flex;
   flex-direction: column;
