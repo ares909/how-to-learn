@@ -1,0 +1,12 @@
+.footer__column-link
+{
+  text-decoration: none;
+  color:white;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
+.footer__column-link:hover
+{
+  color: mediumpurple;
+}
