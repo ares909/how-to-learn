@@ -1,6 +1,6 @@
-.header__title{
-  width:730px;
-  margin-left:64px;
+.header__title {
+  max-width: 730px;
+  margin-left: 64px;
   align-self: center;
   font-size: 102px;
   font-weight: 600;

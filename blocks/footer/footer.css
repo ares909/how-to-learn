@@ -1,9 +1,8 @@
-.footer{
+.footer {
   background-color: #1f1f1f;
-  min-height:350px;
+  min-height: 350px;
   display: flex;
   padding: 60px 0 40px;
-  color:white;
+  color: white;
   box-sizing: border-box;
-
 }

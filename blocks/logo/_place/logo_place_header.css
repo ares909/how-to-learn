@@ -1,9 +1,7 @@
-.logo_place_header
-{
+.logo_place_header {
   background-image: url(../images/logo_place_header.svg);
-  top:30px;
-  left:64px;
-  position:absolute;
+  top: 30px;
+  left: 64px;
+  position: absolute;
   z-index: 2;
-
 }

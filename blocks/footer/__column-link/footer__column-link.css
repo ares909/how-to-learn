@@ -1,12 +1,7 @@
-.footer__column-link
-{
+.footer__column-link {
   text-decoration: none;
-  color:white;
+  color: white;
   list-style-type: none;
-  margin:0;
+  margin: 0;
   padding: 0;
-}
-.footer__column-link:hover
-{
-
 }
