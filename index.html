@@ -11,6 +11,7 @@
 
 <body>
   <div class="page">
+
     <header class="header">
       <a class="logo logo_place_header link-transition" href="https://praktikum.yandex.ru/" target="_blank"></a>
       <h1 class="header__title">Научиться учиться</h1>
@@ -21,6 +22,51 @@
       <div class="header__square-pic rotation"></div>
 
     </header>
+    <section class="form">
+      <div class="form__toggle">
+        <img class="form__toggle-image" src="https://pictures.s3.yandex.net/html-forms/close_icon.png">
+
+      </div>
+      <div class="form__container">
+        <form class="form__admin">
+          <div class="form__main-container">
+            <h2 class="form__heading">Настройки</h2>
+          </div>
+          <fieldset class="form__input-container">
+            <label for="comment" class="form__label">Отзыв о сайте</label>
+            <textarea name="comment" id="comment" class="form__item form__item_el_comment"
+              placeholder="Оставьте тут отзыв"></textarea>
+
+            <label for="email" class="form__label">Ваш E-mail</label>
+            <input name="email" id="email" type="email" class="form__item form__item_el_email"
+              placeholder="mail@example.com"></input>
+            <label class="form__label">Выберите шрифт</label>
+            <select class="form__item form__item_el_select-text">
+              <option value="arial">Arial</option>
+              <option value="roboto">Roboto</option>
+              <option value="kronaone">Krona One</option>
+              <option value="oswald">Oswald</option>
+            </select>
+
+          </fieldset>
+          <fieldset class="form__handlers">
+            <input type="submit" class="form__button">
+            <input type="reset" class="form__button">
+          </fieldset>
+
+
+
+
+
+
+
+        </form>
+      </div>>
+
+
+
+
+    </section>
     <main class="content">
 
       <section class="description">
@@ -343,6 +389,7 @@
 
     </footer>
   </div>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

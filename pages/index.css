@@ -13,6 +13,7 @@
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/form/form.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
@@ -73,3 +74,22 @@
 @import url(../blocks/khan/__title/khan__title.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__admin/form__admin.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__main-container/form__main-container.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__line/form__line.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_comment.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/form/__item/_el/form__item_el_select-text.css);
+@import url(../blocks/form/__handlers/form__handlers.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__toggle/form__toggle.css);
+@import url(../blocks/form/__toggle/form__toggle-image.css);
+
+
+

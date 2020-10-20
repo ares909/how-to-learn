@@ -1,0 +1,19 @@
+.form {
+  width: 400px;
+  height: 100vh;
+  background: rgba(255, 255, 255, .8);
+  border-right: 1px solid grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  font-family: Arial, sans-serif;
+}
+
+.form_is-closed {
+  left: -400px;
+}
+
+.form_is-closed .form__toggle-image {
+  transform: rotate(180deg);
+}
