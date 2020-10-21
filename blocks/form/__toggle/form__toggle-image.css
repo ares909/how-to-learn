@@ -2,4 +2,5 @@
   width: 12px;
   height: 20px;
   margin: auto;
+  transform: rotate(180deg);
 }

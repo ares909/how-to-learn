@@ -1,3 +1,7 @@
+@keyframes form_is-opened{
+
+}
+
 .form {
   width: 400px;
   height: 100vh;
@@ -5,15 +9,15 @@
   border-right: 1px solid grey;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -400px;
   z-index: 3;
   font-family: Arial, sans-serif;
 }
 
-.form_is-closed {
-  left: -400px;
+.form_is-opened {
+  left: 0;
 }
 
-.form_is-closed .form__toggle-image {
-  transform: rotate(180deg);
+.form_is-opened .form__toggle-image {
+  transform: rotate(360deg);
 }

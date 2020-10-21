@@ -1,4 +1,6 @@
 .form__item_el_comment{
   min-width: 250px;
   min-height: 100px;
+
+  font-size: inherit;
 }

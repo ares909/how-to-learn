@@ -1,18 +1,26 @@
-@font-face{
-  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-@font-face{
-  src: url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-  font-family: 'Krona One', sans-serif;
-  font-weight: normal;
 
+@font-face {
+  font-family: 'Krona One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/kronaone/v9/jAnEgHdjHcjgfIb1ZcUyOIWg7cU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-@font-face{
-  src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
-  font-family: 'Oswald', sans-serif;
-  font-weight: normal;
 
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/oswald/v35/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvsUtiZTaR.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }

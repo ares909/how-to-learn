@@ -8,9 +8,4 @@
   display: flex;
   cursor: pointer;
   opacity: 1;
-  transition: opacity 0.2s ease 0s;
-}
-
-.form__toggle:hover {
-  opacity: 0.3;
 }

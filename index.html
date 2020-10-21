@@ -23,7 +23,7 @@
 
     </header>
     <section class="form">
-      <div class="form__toggle">
+      <div class="form__toggle link-transition">
         <img class="form__toggle-image" src="https://pictures.s3.yandex.net/html-forms/close_icon.png">
 
       </div>
@@ -34,14 +34,14 @@
           </div>
           <fieldset class="form__input-container">
             <label for="comment" class="form__label">Отзыв о сайте</label>
-            <textarea name="comment" id="comment" class="form__item form__item_el_comment"
+            <textarea type="comment"name="comment" id="comment" class="form__item form__item_el_comment"
               placeholder="Оставьте тут отзыв"></textarea>
 
             <label for="email" class="form__label">Ваш E-mail</label>
             <input name="email" id="email" type="email" class="form__item form__item_el_email"
               placeholder="mail@example.com"></input>
-            <label class="form__label">Выберите шрифт</label>
-            <select class="form__item form__item_el_select-text">
+            <label for="font-family" class="form__label">Выберите шрифт</label>
+            <select class="form__item form__item_el_select-text" id="font-family" name="font-family">
               <option value="arial">Arial</option>
               <option value="roboto">Roboto</option>
               <option value="kronaone">Krona One</option>
@@ -50,8 +50,8 @@
 
           </fieldset>
           <fieldset class="form__handlers">
-            <input type="submit" class="form__button">
-            <input type="reset" class="form__button">
+            <input type="submit" class="form__button link-transition">
+            <input type="reset" class="form__button link-transition">
           </fieldset>
 
 
