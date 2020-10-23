@@ -85,7 +85,7 @@
 @import url(../blocks/form/__item/_el/form__item_el_comment.css);
 @import url(../blocks/form/__item/_el/form__item_el_email.css);
 
-@import url(../vendor/fonts.css);
+
 @import url(../blocks/form/__item/_el/form__item_el_select-text.css);
 @import url(../blocks/form/__handlers/form__handlers.css);
 @import url(../blocks/form/__button/form__button.css);
